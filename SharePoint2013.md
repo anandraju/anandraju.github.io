@@ -1,5 +1,8 @@
 # SharePoint 2013
 
+
+## SharePoint 2013 - PreRequisite Installation
+```
 set PreReqPath="E:\Install\SharePoint\PrerequisiteInstallerFiles"
 PrerequisiteInstaller.exe /SQLNCli:%PreReqPath%\sqlncli.msi ^
 	/PowerShell:%PreReqPath%\Windows6.1-KB2506143-x64.msu ^
@@ -11,3 +14,4 @@ PrerequisiteInstaller.exe /SQLNCli:%PreReqPath%\sqlncli.msi ^
 	/MSIPCClient:%PreReqPath%\setup_msipc_x64.msi ^
 	/WCFDataServices:%PreReqPath%\WcfDataServices.exe ^
 	/KB2671763:%PreReqPath%\AppFabric1.1-RTM-KB2671763-x64-ENU.exe	
+```
